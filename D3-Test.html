@@ -5,11 +5,22 @@
 		<script src="d3.js" charset="utf-8"></script>
 		<script src="D3-Test.js"></script>
 	</head>
-		<svg class="svg">
-			<svg class = "sampleLines"></svg>
-			<svg class = "meanOfSamples"></svg>
-		</svg>
-
+	<body>
+		<div id="leftHalf">
+			<div class = "controls">
+				<input 	name ="start"
+						type ="button"
+						value ="Start"
+						onClick="Start()" />
+			</div>
+		</div>
+		<div id="rightHalf">
+			<svg class="svg">
+				<svg class = "sampleLines"></svg>
+				<svg class = "meanOfSamples"></svg>
+			</svg>
+		</div>
+	</body>
 
 
 </html>

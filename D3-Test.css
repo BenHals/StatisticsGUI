@@ -1,5 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  width:100%;
+  height:99%;
+  margin:0;
+  padding:0;
+}
 body {
 	background-color: #F5F5F5;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+#leftHalf {
+  display: block;
+  float: left;
+  width: 20%;
+  height:100%;
+}
+#rightHalf{
+  display: block;
+  float:right;
+  width:80%;
+  height:100%;
+
+}
+
+.svg {
+  
+  width:100%;
+  height:100%;
+}
+
+.controls {
+  
+  width: 100%;
+  height:100%;
+
 }
 .svg circle {
   fill: #C7D0D5;
