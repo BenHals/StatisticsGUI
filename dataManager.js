@@ -33,7 +33,7 @@ function loadData(){
 }
 
 function startOneMean(){
-	oneMean(inputData, "weightactual", "mean");
+	return (new oneMeanCanvas(inputData, "weightactual", "mean"));
 }
 function startTwoMeans(){
 	twoMeans(inputData, "sex", "weightactual", "mean");
